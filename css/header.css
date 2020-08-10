@@ -9,6 +9,7 @@ header {
 .header-list {
 height: 100%;
 width: 100%;
+background: white;
 list-style: none;
 padding: 0 0.8rem;
 margin: 0;

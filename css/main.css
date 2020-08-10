@@ -51,3 +51,86 @@ main {
   color: rgba(0, 0, 0, 0.85);
   font-size: 0.9rem;
 }
+
+
+/* STYLE CONTENT - LIST BOOKS */
+.main-content {
+  margin-bottom: 2.9rem;
+}
+.main-content.romantic {
+  margin-bottom: 5.5rem;
+}
+.main-content__list {
+  height: auto;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content__list-item {
+  width: 47%;
+}
+.main-content__list-item.romantic {
+  width: 31%;
+}
+.list-item__img {
+  height: 17rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list-item__img.romantic {
+  height: 12rem;
+}
+.list-item__img.first {
+  background-image: url('../images/judyblume.jpg');
+}
+.list-item__img.second {
+  background-image: url('../images/greatebook.jpg');
+}
+.list-item__img.romantic.first {
+  background-image: url('../images/gatsby.jpg');
+}
+.list-item__img.romantic.second {
+  background-image: url('../images/london.jpg');
+}
+.list-item__img.romantic.third {
+  background-image: url('../images/scott.jpg');
+}
+.list-item__text {
+  margin-top: 0.8rem;
+}
+.list-item__text > h2,
+.list-item__text > h3 {
+  margin: 0;
+  text-align: left;
+}
+.list-item__text > h2 {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.list-item__text.romantic > h2 {
+  font-size: 0.85rem;
+}
+.list-item__text > h3 {
+  font-size: .85rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.list-item__text.romantic > h3 {
+  font-size: 0.7rem;
+}
+.list-item__text > span {
+  color: green;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+.list-item__text.romantic > span {
+  font-size: 0.75rem;
+}
+
+/* FINAL CONTENT - LIST BOOKS */
