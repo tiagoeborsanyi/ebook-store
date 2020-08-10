@@ -1,0 +1,39 @@
+header {
+  height: 4rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header-list {
+height: 100%;
+width: 100%;
+list-style: none;
+padding: 0 0.8rem;
+margin: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-list__item {
+height: 100%;
+width: 24%;
+padding-bottom: 0.8rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.header-list__item > p {
+margin: 0;
+font-size: 0.9rem;
+}
+
+.header-list__item > p,
+.header-list__item > span {
+color: rgba(0, 0, 0, 0.85);
+font-weight: 300;
+}

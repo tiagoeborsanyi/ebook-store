@@ -1,0 +1,38 @@
+nav {
+  height: 3.5rem;
+  width: 100%;
+  padding: 0 0.8rem;
+  display: flex;
+}
+
+.nav-search {
+  height: 100%;
+  width: 75%;
+  position: relative;
+}
+.nav-cart {
+  height: 100%;
+  width: 23%;
+}
+.nav-search,
+.nav-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-search > input {
+  height: 2rem;
+  width: 95%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.nav-search > input::placeholder {
+  padding-left: 2rem;
+}
+.nav-search > span {
+  position: absolute;
+  left: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
